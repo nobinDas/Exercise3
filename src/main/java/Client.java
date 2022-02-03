@@ -16,7 +16,7 @@ public class Client {
         try {
             socket = new Socket("localhost", PORT);
             outputStream = <1>;   //complete this statement
-            inputStream = <20>;    //complete this statement
+            inputStream = <2>;    //complete this statement
             playerNo = (int) inputStream.readObject();
             System.out.println("You have joined as Player " + (playerNo+1));
             scanner = <3>;   //complete this statement
